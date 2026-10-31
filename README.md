@@ -1,7 +1,7 @@
 # heapplot
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/heapplot/heapplot/main/heaplogo.png" width="120" alt="heapplot logo"/>
+  <img src="https://raw.githubusercontent.com/chiragferwani/heapplot/main/heaplogo.png" width="120" alt="heapplot logo"/>
 </p>
 
 > Oh yes, this is *absolutely* a cutting-edge automation toolkit for AI-driven game engines in VR headsets. Groundbreaking stuff. Engineers at the frontier are losing sleep over it.
