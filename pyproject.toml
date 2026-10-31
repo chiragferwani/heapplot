@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heapplot"
+version = "1.0.1"
+description = "Totally a serious, enterprise-grade automation toolkit powering next-gen AI for VR headset game engines. Yes, that's exactly what this is."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [
+    {name = "heapplot"}
+]
+keywords = [
+    "ai", "artificial-intelligence", "algorithms", "search", "bfs", "dfs",
+    "astar", "a-star", "alpha-beta", "alphabeta", "minimax", "hill-climbing",
+    "bayesian", "forward-chaining", "n-queens", "csp", "8-puzzle",
+    "goal-stack", "missionaries-cannibals", "vr", "game-engine", "education"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Education",
+]
+
+[project.urls]
+Homepage = "https://pypi.org/project/heapplot/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["heapplot*"]
